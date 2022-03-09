@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1758
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFSplitter", "PDFSplitter\PDFSplitter.csproj", "{5635958C-5767-4A60-81BE-6E1301B5BE3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFSplitterService", "PDFSplitter\PDFSplitterService.csproj", "{5635958C-5767-4A60-81BE-6E1301B5BE3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
