@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PDFSplitter.PDFSplitter">
+    <Position X="3.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAAQAAAgAGAgAAAAAAAgAAECAEAAAAAoJAAAEAAAAAA=</HashCode>
+      <FileName>PDFSplitter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PDFSplitter.PDFService">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>PDFService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

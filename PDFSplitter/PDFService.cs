@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using NLog;
+using System;
 using Topshelf;
 
 namespace PDFSplitter
@@ -10,8 +7,13 @@ namespace PDFSplitter
     class PDFService
     {
 
+        public static readonly ILogger logger = LogManager.GetCurrentClassLogger();
+
+
         static void Main(string[] args)
         {
+            logger.Info("Starting Service...");
+
             var exitCode = HostFactory.Run(x =>
             {
                 x.Service<PDFSplitter>(s =>
@@ -26,13 +28,11 @@ namespace PDFSplitter
                 x.SetServiceName("Inteli8PDFSplitter");
                 x.SetDisplayName("Inteli8 PDFSplitter");
                 x.SetDescription("Splits the first page of each PDF and sends them to a directory");
-
             });
 
             int exitCodeValue = (int)Convert.ChangeType(exitCode, exitCode.GetTypeCode());
             Environment.ExitCode = exitCodeValue;
         }
-
 
 
 
